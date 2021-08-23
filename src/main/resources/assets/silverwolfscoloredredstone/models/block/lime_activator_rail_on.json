@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/rail_flat",
+  "textures": {
+    "rail": "silverwolfscoloredredstone:block/lime_activator_rail_on"
+  }
+}

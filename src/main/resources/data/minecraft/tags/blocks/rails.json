@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:rail",
+    "minecraft:powered_rail",
+    "minecraft:detector_rail",
+    "minecraft:activator_rail",
+    "silverwolfscoloredredstone:black_activator_rail",
+    "silverwolfscoloredredstone:blue_activator_rail",
+    "silverwolfscoloredredstone:brown_activator_rail",
+    "silverwolfscoloredredstone:cyan_activator_rail",
+    "silverwolfscoloredredstone:gray_activator_rail",
+    "silverwolfscoloredredstone:green_activator_rail",
+    "silverwolfscoloredredstone:light_blue_activator_rail",
+    "silverwolfscoloredredstone:light_gray_activator_rail",
+    "silverwolfscoloredredstone:lime_activator_rail",
+    "silverwolfscoloredredstone:magenta_activator_rail",
+    "silverwolfscoloredredstone:orange_activator_rail",
+    "silverwolfscoloredredstone:pink_activator_rail",
+    "silverwolfscoloredredstone:purple_activator_rail",
+    "silverwolfscoloredredstone:white_activator_rail",
+    "silverwolfscoloredredstone:yellow_activator_rail"
+
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "silverwolfscoloredredstone:block/lime_activator_rail"
+  }
+}
