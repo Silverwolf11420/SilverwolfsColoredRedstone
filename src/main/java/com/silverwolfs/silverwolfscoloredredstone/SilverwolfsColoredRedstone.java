@@ -1,7 +1,10 @@
 package com.silverwolfs.silverwolfscoloredredstone;
 
+import com.silverwolfs.silverwolfscoloredredstone.util.RegistryHandler;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -30,9 +33,29 @@ public class SilverwolfsColoredRedstone {
     public SilverwolfsColoredRedstone()
     {
         final IEventBus modEventbus = FMLJavaModLoadingContext.get().getModEventBus();
-
+        RegistryHandler.init(modEventbus);
 
         instance = this;
         MinecraftForge.EVENT_BUS.register(this);
+    }
+
+    //creative tabs
+    public static class SilverwolfsRedstoneItemGroup extends ItemGroup {
+        public static final SilverwolfsRedstoneItemGroup instance = new SilverwolfsRedstoneItemGroup(ItemGroup.GROUPS.length, "creativetab");
+
+        private SilverwolfsRedstoneItemGroup(int index, String label) {
+            super(index, label);
+        }
+
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(Blocks.CHAIN);
+        }
+
+        @Override
+        public boolean hasSearchBar() {
+            return true;
+        }
+
     }
 }
