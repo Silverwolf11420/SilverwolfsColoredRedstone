@@ -78,5 +78,6 @@ public class ClientEventBusSubscriber {
         RenderTypeLookup.setRenderLayer(BlockInit.PURPLE_REDSTONE_TORCH.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(BlockInit.WHITE_REDSTONE_TORCH.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(BlockInit.YELLOW_REDSTONE_TORCH.get(), RenderType.getCutout());
+
     }
 }
