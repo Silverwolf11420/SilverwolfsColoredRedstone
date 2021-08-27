@@ -31,5 +31,52 @@ public class ClientEventBusSubscriber {
         RenderTypeLookup.setRenderLayer(BlockInit.WHITE_ACTIVATOR_RAIL.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(BlockInit.YELLOW_ACTIVATOR_RAIL.get(), RenderType.getCutout());
 
+        RenderTypeLookup.setRenderLayer(BlockInit.BLACK_DETECTOR_RAIL.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.BLUE_DETECTOR_RAIL.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.BROWN_DETECTOR_RAIL.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.CYAN_DETECTOR_RAIL.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.GRAY_DETECTOR_RAIL.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.GREEN_DETECTOR_RAIL.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.LIGHT_BLUE_DETECTOR_RAIL.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.LIGHT_GRAY_DETECTOR_RAIL.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.LIME_DETECTOR_RAIL.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.MAGENTA_DETECTOR_RAIL.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.ORANGE_DETECTOR_RAIL.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.PINK_DETECTOR_RAIL.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.PURPLE_DETECTOR_RAIL.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.WHITE_DETECTOR_RAIL.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.YELLOW_DETECTOR_RAIL.get(), RenderType.getCutout());
+
+        RenderTypeLookup.setRenderLayer(BlockInit.BLACK_POWERED_RAIL.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.BLUE_POWERED_RAIL.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.BROWN_POWERED_RAIL.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.CYAN_POWERED_RAIL.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.GRAY_POWERED_RAIL.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.GREEN_POWERED_RAIL.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.LIGHT_BLUE_POWERED_RAIL.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.LIGHT_GRAY_POWERED_RAIL.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.LIME_POWERED_RAIL.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.MAGENTA_POWERED_RAIL.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.ORANGE_POWERED_RAIL.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.PINK_POWERED_RAIL.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.PURPLE_POWERED_RAIL.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.WHITE_POWERED_RAIL.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.YELLOW_POWERED_RAIL.get(), RenderType.getCutout());
+
+        RenderTypeLookup.setRenderLayer(BlockInit.BLACK_REDSTONE_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.BLUE_REDSTONE_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.BROWN_REDSTONE_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.CYAN_REDSTONE_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.GRAY_REDSTONE_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.GREEN_REDSTONE_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.LIGHT_BLUE_REDSTONE_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.LIGHT_GRAY_REDSTONE_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.LIME_REDSTONE_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.MAGENTA_REDSTONE_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.ORANGE_REDSTONE_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.PINK_REDSTONE_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.PURPLE_REDSTONE_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.WHITE_REDSTONE_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.YELLOW_REDSTONE_TORCH.get(), RenderType.getCutout());
     }
 }
