@@ -1,6 +1,22 @@
 {
   "itemGroup.creativetab": "SCR",
 
+  "item.silverwolfscoloredredstone.black_redstone": "Black Redstone",
+  "item.silverwolfscoloredredstone.blue_redstone": "Blue Redstone",
+  "item.silverwolfscoloredredstone.brown_redstone": "Brown Redstone",
+  "item.silverwolfscoloredredstone.cyan_redstone": "Cyan Redstone",
+  "item.silverwolfscoloredredstone.gray_redstone": "Gray Redstone",
+  "item.silverwolfscoloredredstone.green_redstone": "Green Redstone",
+  "item.silverwolfscoloredredstone.light_blue_redstone": "Light Blue Redstone",
+  "item.silverwolfscoloredredstone.light_gray_redstone": "Light Gray Redstone",
+  "item.silverwolfscoloredredstone.lime_redstone": "Lime Redstone",
+  "item.silverwolfscoloredredstone.magenta_redstone": "Magenta Redstone",
+  "item.silverwolfscoloredredstone.orange_redstone": "Orange Redstone",
+  "item.silverwolfscoloredredstone.pink_redstone": "Pink Redstone",
+  "item.silverwolfscoloredredstone.purple_redstone": "Purple Redstone",
+  "item.silverwolfscoloredredstone.white_redstone": "White Redstone",
+  "item.silverwolfscoloredredstone.yellow_redstone": "Yellow Redstone",
+
   "block.silverwolfscoloredredstone.black_activator_rail": "Black Activator Rail",
   "block.silverwolfscoloredredstone.blue_activator_rail": "Blue Activator Rail",
   "block.silverwolfscoloredredstone.brown_activator_rail": "Brown Activator Rail",
