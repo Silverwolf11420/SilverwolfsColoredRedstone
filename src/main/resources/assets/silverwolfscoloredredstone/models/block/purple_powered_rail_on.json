@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/rail_flat",
+  "textures": {
+    "rail": "silverwolfscoloredredstone:block/purple_powered_rail_on"
+  }
+}

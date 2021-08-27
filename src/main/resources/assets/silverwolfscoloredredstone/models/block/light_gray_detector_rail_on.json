@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/rail_flat",
+  "textures": {
+    "rail": "silverwolfscoloredredstone:block/light_gray_detector_rail_on"
+  }
+}
