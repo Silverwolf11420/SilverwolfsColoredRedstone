@@ -3,10 +3,7 @@ package com.silverwolfs.silverwolfscoloredredstone.init;
 import com.silverwolfs.silverwolfscoloredredstone.SilverwolfsColoredRedstone;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.WallOrFloorItem;
+import net.minecraft.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -304,4 +301,19 @@ public class BlockInit {
     public static final RegistryObject<BlockItem> WHITE_REDSTONE_TORCH_ITEM = ItemInit.ITEMS.register("white_redstone_torch", () -> new WallOrFloorItem(WHITE_REDSTONE_TORCH.get(), WHITE_REDSTONE_WALL_TORCH.get(), new Item.Properties().group(SilverwolfsColoredRedstone.SilverwolfsRedstoneItemGroup.instance)));
     public static final RegistryObject<BlockItem> YELLOW_REDSTONE_TORCH_ITEM = ItemInit.ITEMS.register("yellow_redstone_torch", () -> new WallOrFloorItem(YELLOW_REDSTONE_TORCH.get(), YELLOW_REDSTONE_WALL_TORCH.get(), new Item.Properties().group(SilverwolfsColoredRedstone.SilverwolfsRedstoneItemGroup.instance)));
 
+    public static final RegistryObject<BlockItem> BLACK_REDSTONE_WIRE_ITEM = ItemInit.ITEMS.register("black_redstone_wire", () -> new BlockNamedItem(BLACK_REDSTONE_WIRE.get(), new Item.Properties().group(SilverwolfsColoredRedstone.SilverwolfsRedstoneItemGroup.instance)));
+    public static final RegistryObject<BlockItem> BLUE_REDSTONE_WIRE_ITEM = ItemInit.ITEMS.register("blue_redstone_wire", () -> new BlockNamedItem(BLUE_REDSTONE_WIRE.get(), new Item.Properties().group(SilverwolfsColoredRedstone.SilverwolfsRedstoneItemGroup.instance)));
+    public static final RegistryObject<BlockItem> BROWN_REDSTONE_WIRE_ITEM = ItemInit.ITEMS.register("brown_redstone_wire", () -> new BlockNamedItem(BROWN_REDSTONE_WIRE.get(), new Item.Properties().group(SilverwolfsColoredRedstone.SilverwolfsRedstoneItemGroup.instance)));
+    public static final RegistryObject<BlockItem> CYAN_REDSTONE_WIRE_ITEM = ItemInit.ITEMS.register("cyan_redstone_wire", () -> new BlockNamedItem(CYAN_REDSTONE_WIRE.get(), new Item.Properties().group(SilverwolfsColoredRedstone.SilverwolfsRedstoneItemGroup.instance)));
+    public static final RegistryObject<BlockItem> GRAY_REDSTONE_WIRE_ITEM = ItemInit.ITEMS.register("gray_redstone_wire", () -> new BlockNamedItem(GRAY_REDSTONE_WIRE.get(), new Item.Properties().group(SilverwolfsColoredRedstone.SilverwolfsRedstoneItemGroup.instance)));
+    public static final RegistryObject<BlockItem> GREEN_REDSTONE_WIRE_ITEM = ItemInit.ITEMS.register("green_redstone_wire", () -> new BlockNamedItem(GREEN_REDSTONE_WIRE.get(), new Item.Properties().group(SilverwolfsColoredRedstone.SilverwolfsRedstoneItemGroup.instance)));
+    public static final RegistryObject<BlockItem> LIGHT_BLUE_REDSTONE_WIRE_ITEM = ItemInit.ITEMS.register("light_blue_redstone_wire", () -> new BlockNamedItem(LIGHT_BLUE_REDSTONE_WIRE.get(), new Item.Properties().group(SilverwolfsColoredRedstone.SilverwolfsRedstoneItemGroup.instance)));
+    public static final RegistryObject<BlockItem> LIGHT_GRAY_REDSTONE_WIRE_ITEM = ItemInit.ITEMS.register("light_gray_redstone_wire", () -> new BlockNamedItem(LIGHT_GRAY_REDSTONE_WIRE.get(), new Item.Properties().group(SilverwolfsColoredRedstone.SilverwolfsRedstoneItemGroup.instance)));
+    public static final RegistryObject<BlockItem> LIME_REDSTONE_WIRE_ITEM = ItemInit.ITEMS.register("lime_redstone_wire", () -> new BlockNamedItem(LIME_REDSTONE_WIRE.get(), new Item.Properties().group(SilverwolfsColoredRedstone.SilverwolfsRedstoneItemGroup.instance)));
+    public static final RegistryObject<BlockItem> MAGENTA_REDSTONE_WIRE_ITEM = ItemInit.ITEMS.register("magenta_redstone_wire", () -> new BlockNamedItem(MAGENTA_REDSTONE_WIRE.get(), new Item.Properties().group(SilverwolfsColoredRedstone.SilverwolfsRedstoneItemGroup.instance)));
+    public static final RegistryObject<BlockItem> ORANGE_REDSTONE_WIRE_ITEM = ItemInit.ITEMS.register("orange_redstone_wire", () -> new BlockNamedItem(ORANGE_REDSTONE_WIRE.get(), new Item.Properties().group(SilverwolfsColoredRedstone.SilverwolfsRedstoneItemGroup.instance)));
+    public static final RegistryObject<BlockItem> PINK_REDSTONE_WIRE_ITEM = ItemInit.ITEMS.register("pink_redstone_wire", () -> new BlockNamedItem(PINK_REDSTONE_WIRE.get(), new Item.Properties().group(SilverwolfsColoredRedstone.SilverwolfsRedstoneItemGroup.instance)));
+    public static final RegistryObject<BlockItem> PURPLE_REDSTONE_WIRE_ITEM = ItemInit.ITEMS.register("purple_redstone_wire", () -> new BlockNamedItem(PURPLE_REDSTONE_WIRE.get(), new Item.Properties().group(SilverwolfsColoredRedstone.SilverwolfsRedstoneItemGroup.instance)));
+    public static final RegistryObject<BlockItem> WHITE_REDSTONE_WIRE_ITEM = ItemInit.ITEMS.register("white_redstone_wire", () -> new BlockNamedItem(WHITE_REDSTONE_WIRE.get(), new Item.Properties().group(SilverwolfsColoredRedstone.SilverwolfsRedstoneItemGroup.instance)));
+    public static final RegistryObject<BlockItem> YELLOW_REDSTONE_WIRE_ITEM = ItemInit.ITEMS.register("yellow_redstone_wire", () -> new BlockNamedItem(YELLOW_REDSTONE_WIRE.get(), new Item.Properties().group(SilverwolfsColoredRedstone.SilverwolfsRedstoneItemGroup.instance)));
 }
