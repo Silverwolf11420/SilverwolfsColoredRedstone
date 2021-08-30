@@ -111,6 +111,22 @@ public class ClientEventBusSubscriber {
         RenderTypeLookup.setRenderLayer(BlockInit.WHITE_REDSTONE_TORCH.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(BlockInit.YELLOW_REDSTONE_TORCH.get(), RenderType.getCutout());
 
+        RenderTypeLookup.setRenderLayer(BlockInit.BLACK_REDSTONE_WALL_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.BLUE_REDSTONE_WALL_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.BROWN_REDSTONE_WALL_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.CYAN_REDSTONE_WALL_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.GRAY_REDSTONE_WALL_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.GREEN_REDSTONE_WALL_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.LIGHT_BLUE_REDSTONE_WALL_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.LIGHT_GRAY_REDSTONE_WALL_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.LIME_REDSTONE_WALL_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.MAGENTA_REDSTONE_WALL_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.ORANGE_REDSTONE_WALL_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.PINK_REDSTONE_WALL_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.PURPLE_REDSTONE_WALL_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.WHITE_REDSTONE_WALL_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.YELLOW_REDSTONE_WALL_TORCH.get(), RenderType.getCutout());
+
         RenderTypeLookup.setRenderLayer(BlockInit.BLACK_REDSTONE_WIRE.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(BlockInit.BLUE_REDSTONE_WIRE.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(BlockInit.BROWN_REDSTONE_WIRE.get(), RenderType.getCutout());
