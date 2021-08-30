@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "silverwolfscoloredredstone:block/orange_redstone_torch_off"
+    },
+    "lit=true": {
+      "model": "silverwolfscoloredredstone:block/orange_redstone_torch"
+    }
+  }
+}
