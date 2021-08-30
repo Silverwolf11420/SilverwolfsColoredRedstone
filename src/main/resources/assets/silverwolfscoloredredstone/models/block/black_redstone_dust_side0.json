@@ -1,0 +1,6 @@
+{
+    "parent": "block/redstone_dust_side",
+    "textures": {
+        "line": "silverwolfscoloredredstone:block/black_redstone_dust_line0"
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "silverwolfscoloredredstone:block/orange_redstone_block"
+  }
+}

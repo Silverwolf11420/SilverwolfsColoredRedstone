@@ -1,0 +1,6 @@
+{
+    "parent": "block/redstone_dust_side_alt",
+    "textures": {
+        "line": "silverwolfscoloredredstone:block/light_blue_redstone_dust_line1"
+    }
+}
